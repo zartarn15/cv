@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme{classic}
+\usepackage[scale=0.82]{geometry}
+
+% Personal data
+\firstname{Oleksandr}
+\familyname{Kravchenko}
+\title{Software Engineer}
+\address{Ukraine, Kyiv}{}
+\mobile{+38 099 4930248}
+\email{zartarn15@gmail.com}
+\social[github]{zartarn15}
+%\photo[64pt][0.4pt]{images/photo}
+%\social[linkedin]{...}
+
+\definecolor{web}{rgb}{0.2,0.2,0.2}
+
+% Content
+\begin{document}
+
+\maketitle
+
+\section{Summary}
+
+More than 10 years experience in IT.\\
+Background in: Android system programming, Linux Kernel, embedded and MCU's.\\
+Have drivers and patches in Linux kernel mainline. Links to
+\href{https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/log/?id=refs\%2Ftags\%2Fv4.2-rc4&qt=author&q=Oleksandr+Kravchenko}{\textcolor{blue}{kernel.org}}
+and LKML
+\href{https://lkml.org/lkml/2013/7/22/259}{\textcolor{blue}{[1]}},
+\href{https://lkml.org/lkml/2013/8/28/187}{\textcolor{blue}{[2]}},
+\href{https://lkml.org/lkml/2013/7/19/99}{\textcolor{blue}{[3]}}.\\
+Participation in startup creating from scratch: \href{https://www.kickstarter.com/projects/airmetaldetectors/air-metal-detector-the-smart-bluetooth-metal-detec}{\textcolor{blue}{Air Metal Detector}}.\\
+Experience in schematic and PCB development.
+
+\section{Key Skills}
+
+C, Rust, Bash, Make, ARM Assembler\\
+Android, Embedded, Linux Kernel, Bootloaders, SPU, TrustZone\\ 
+ARM-based mobile devices, STM32, AVR and PIC MCU’s\\
+JTAG debuggers, USB analyzer, Logic analyzer, Oscilloscope\\
+GCC, LLVM, GDB, Make, Cargo, Git, Gerrit, Wireshark, Android NDK/Studio, KiCad etc.
+
+\section{Experience}
+
+\cventry{From 2014}{Senior Software Engineer}{Samsung Electronics}{Kyiv}{}
+  {Mobile Security Lab{}
+   \begin{itemize}
+     \item Android security services development (HIDL)
+     \item HIDL services implementation: Keymaster, Gatekeeper, ConfirmationUI, Weaver
+     \item TrustZone and SPU SW development (C, Rust)
+     \item Fixing of security issues in Android and Kernel
+     \item Android testing tools and Apps development
+     \item Mobile devices security certification
+     \item Testing of the product after code done
+   \end{itemize}}
+\cventry{2013 -- 2014}{Linux Kernel Developer}{GlobalLogic}{Kyiv}{}
+  {Projects: Marvell, Texas Instruments{}
+  \begin{itemize}
+     \item Supporting Linux Kernel for TI OMAP4/5 and Marvell PXA18xx/19xx platforms
+     \item Development drivers for Linux Kernel mainline
+     \item Peripheral drivers supporting: DMA, MMC, I2C, SPI, USB, WiFi, power management
+     \item Bootloader drivers development
+     \item Fixing issues on Linux kernel over Xen hypervisor
+  \end{itemize}}
+\cventry{2010 -- 2013}{Software/Hardware Engineer}{Energotecnics}{Kramatorsk, Ukraine}{}{{}
+  \begin{itemize}
+     \item Firmware and PCB development for gas heating control systems based on MCU’s
+     \item PLC based wagon defrosting control system development
+  \end{itemize}}
+
+\section{Education}
+
+\cventry{2004--2009}{Specialist degree}
+  {Donbas State Mechanical Engineering Academy}{Kramatorsk}{}
+  {\textit{Speciality}: Embedded and automation systems engineer}
+
+%\pagebreak
+
+\section{Languages}
+
+\cvdoubleitem{English}{Intermediate}{Russian}{Fluent}
+\cvdoubleitem{Ukrainian}{Fluent}{}{}
+
+\end{document}
